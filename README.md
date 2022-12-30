@@ -119,6 +119,11 @@ We test the memory with `JvmUtilities` and `pom.xml` which implemets the `JOL` i
 We test the classes `ConcreteMember` and `GroupAdmin` methods.
 For each method we create his own test.
 
-#### For example:
+#### For example - memory:
+
+![testmemory_photo](https://user-images.githubusercontent.com/119599940/210111443-7bb62884-1cd0-432f-ab3b-3b9f9a05dc52.png)
+
+
+#### For example - method:
 
 ![test_photo](https://user-images.githubusercontent.com/119599940/210111176-5a90fa9a-ef4c-488b-9dfc-a1d4f8470abd.png)

@@ -1,12 +1,20 @@
 
 # Object-Oriented Programming assignment 1
 
-### second assignment in "Object-Oriented Programming" course at Ariel University 
 
 ## Authors
 
 - [@Yoad Tamar](https://github.com/YoadTamar)
 - [@Ron Shuster](https://github.com/shusteron)
+
+## General Description
+This is the second assignment in "Object-Oriented Programming" course at Ariel University.
+We were asked to implement the principles of the Observe design pattern.
+In this program we will implement the GroupAdmin class that implements the Sender interface which describes the sender of the updates (Observable).
+The GroupAdmin class contains the UndoableStringBuilder class and a members list that should receive updates on any changes.
+we also implement the ConcreteMember class that implements the Member interface which describes the recipient of the updates (Observer).
+The class contains a copy (copy sallow) of the UndoableStringBuilder repository. 
+ 
 
 
 ## ConcreteMember

@@ -8,7 +8,7 @@ public class GroupAdmin implements Sender{
     UndoableStringBuilder usb;
     List<Member> members;
 
-    public GroupAdmin(){
+        public GroupAdmin(){
         this.members=new ArrayList<>();
         this.usb= new UndoableStringBuilder();
     }

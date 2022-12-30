@@ -2,7 +2,13 @@
 # Object-Oriented Programming assignment 1
 
 ### second assignment in "Object-Oriented Programming" course at Ariel University 
-# Description
+
+## Authors
+
+- [@Yoad Tamar](https://github.com/YoadTamar)
+- [@Ron Shuster](https://github.com/shusteron)
+
+
 ## ConcreteMember
 Implements the `Member` interface which describes the recipient of the updates (Observer). <br>
 The class contains a copy (sallow copy) of the `UndoableStringBuilder`. 
@@ -79,12 +85,40 @@ notify to each member(Observe), with the `update` method.
 ### toString()
 Returns `members` list; (toString for each member).
 
-## Authors
 
-- [@Yoad Tamar](https://github.com/YoadTamar)
-- [@Ron Shuster](https://github.com/shusteron)
+## Run The Project And Tests 
 
+#### To open the project:
 
-## 🛠 Skills
-Java , Observer design pattern
+Clone the project
 
+```bash
+  git clone https://github.com/YoadTamar/OOP_Assignment1
+```
+#### To run the test
+
+Open the project 
+
+open src directory
+
+Open test directory
+
+For test of memory - run the `Tests` class
+
+For test of the classes open observer directory
+
+and choose the class you want to test - ConcreteMember or GroupAdmin.
+
+## Tests
+
+The test made with JUnit 5.
+We test two thing - the memory and the correctness of the classes.
+
+We test the memory with `JvmUtilities` and `pom.xml` which implemets the `JOL` interface.
+
+We test the classes `ConcreteMember` and `GroupAdmin` methods.
+For each method we create his own test.
+
+#### For example:
+
+![test_photo](https://user-images.githubusercontent.com/119599940/210111176-5a90fa9a-ef4c-488b-9dfc-a1d4f8470abd.png)

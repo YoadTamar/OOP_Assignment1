@@ -127,3 +127,7 @@ For each method we create his own test.
 #### For example - method:
 
 ![test_photo](https://user-images.githubusercontent.com/119599940/210111176-5a90fa9a-ef4c-488b-9dfc-a1d4f8470abd.png)
+
+## 🛠 Skills
+Java , Observer design pattern
+

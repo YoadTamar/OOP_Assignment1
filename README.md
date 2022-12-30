@@ -29,7 +29,7 @@ in addition, has the following methods:
 Assigns the name of the member, and creates the UbdoableStringBuilder "usb".
 
 ### update(UndoableStringBuilder usb)
----
+----
 When GroupAdmin object sends an update, it will update `usb` to the GroupAdmin's `UndoableStringBuilder` , and made with a sallow copy.
 
 ### toString()

@@ -7,6 +7,7 @@ public class Test {
         ConcreteMember member1 =new ConcreteMember("mem1");
         ConcreteMember member2 =new ConcreteMember("mem2");
 
+
         groupAdmin.register(member1);
         groupAdmin.append("Hello member 1");
         System.out.println(member1);

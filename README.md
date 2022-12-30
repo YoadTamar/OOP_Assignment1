@@ -2,7 +2,7 @@
 # Object-Oriented Programming assignment 1
 
 ### second assignment in "Object-Oriented Programming" course at Ariel University 
-## Description
+# Description
 ## ConcreteMember
 Implements the `Member` interface which describes the recipient of the updates (Observer). <br>
 The class contains a copy (sallow copy) of the `UndoableStringBuilder`. 

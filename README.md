@@ -25,12 +25,15 @@ in addition, has the following methods:
 
 
 ### ConcreteMember(String name)
+---
 Assigns the name of the member, and creates the UbdoableStringBuilder "usb".
 
 ### update(UndoableStringBuilder usb)
+---
 When GroupAdmin object sends an update, it will update `usb` to the GroupAdmin's `UndoableStringBuilder` , and made with a sallow copy.
 
 ### toString()
+---
 return the name and what `usb` contains.
 
 ## GroupAdmin
@@ -59,30 +62,39 @@ in addition, has the following methods:
 
 
 ### GroupAdmin()
+---
 Assigns `usb` and creates the ArrayList `members`.
 
 ### register(Member obj)
+---
 It used to register observers. each member can register only once! (if he didn't unregister). 
 
 ### unregister(Member obj)
+---
 It used to unregister observers. each member can unregister only if he already register. 
 
 ### insert(int offset, String obj)
+---
 inserts "obj" string into `usb` from the position "offset". 
 
 ### append(String obj)
+---
 It use to appends "obj" string to `usb`.
 
 ### delete(int start, int end)
+---
 It use to delete from `usb` the substring starting at "start" and ending at "end" (not included).
 
 ### undo()
+---
 Erases the last change done in `usb` and reverts it to the previous state it was at.
 
 ### notifyObservers()
+---
 notify to each member(Observe), with the `update` method.
 
 ### toString()
+---
 Returns `members` list; (toString for each member).
 
 

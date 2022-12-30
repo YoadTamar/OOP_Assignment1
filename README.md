@@ -1,12 +1,6 @@
 
 # Object-Oriented Programming assignment 1
 
-
-## Authors
-
-- [@Yoad Tamar](https://github.com/YoadTamar)
-- [@Ron Shuster](https://github.com/shusteron)
-
 ## General Description
 This is the second assignment in "Object-Oriented Programming" course at Ariel University. <br>
 We were asked to implement the principles of the Observe design pattern. <br>
@@ -138,4 +132,10 @@ For each method we create his own test.
 
 ## 🛠 Skills
 Java , Observer design pattern
+
+## Authors
+
+- [@Yoad Tamar](https://github.com/YoadTamar)
+- [@Ron Shuster](https://github.com/shusteron)
+
 

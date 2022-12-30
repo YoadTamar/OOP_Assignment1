@@ -1,5 +1,5 @@
 
-# OOP_Assignment1
+# Object-Oriented Programming assignment 1
 
 ### second assignment in "Object-Oriented Programming" course at Ariel University 
 
@@ -24,6 +24,14 @@ in addition, has the following methods:
 - `toString`
 
 
+### ConcreteMember()
+Assigns the name of the member, and creates the UbdoableStringBuilder "usb".
+
+### update()
+When GroupAdmin object sends an update, it will update `usb` to the GroupAdmin's `UndoableStringBuilder` , and made with a sallow copy.
+
+### toString()
+return the name and what `usb` contains.
 
 ## 🛠 Skills
 Java , Observer design pattern

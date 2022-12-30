@@ -144,6 +144,7 @@ class GroupAdminTest {
 
         // append - hello
         groupAdmin.append("hello");
+
         // append - "" - for the undo later
         groupAdmin.append("");
         assertEquals("Members:\n" + "yoad: hello\n" + "ron: hello\n", groupAdmin.toString());

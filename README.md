@@ -10,7 +10,7 @@
 
 
 ## ConcreteMember
-Implements the `Member` interface which describes the recipient of the updates (Observer).
+Implements the `Member` interface which describes the recipient of the updates (Observer). <br>
 The class contains a copy (sallow copy) of the `UndoableStringBuilder`. 
 
 ConcreteMember has 2 private variables:

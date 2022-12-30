@@ -2,13 +2,7 @@
 # Object-Oriented Programming assignment 1
 
 ### second assignment in "Object-Oriented Programming" course at Ariel University 
-
-## Authors
-
-- [@Yoad Tamar](https://github.com/YoadTamar)
-- [@Ron Shuster](https://github.com/shusteron)
-
-
+## Description
 ## ConcreteMember
 Implements the `Member` interface which describes the recipient of the updates (Observer). <br>
 The class contains a copy (sallow copy) of the `UndoableStringBuilder`. 
@@ -84,6 +78,11 @@ notify to each member(Observe), with the `update` method.
 
 ### toString()
 Returns `members` list; (toString for each member).
+
+## Authors
+
+- [@Yoad Tamar](https://github.com/YoadTamar)
+- [@Ron Shuster](https://github.com/shusteron)
 
 
 ## 🛠 Skills

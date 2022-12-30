@@ -1,5 +1,7 @@
 package observer;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -9,7 +11,12 @@ public class Test {
 
 
         groupAdmin.register(member1);
-        groupAdmin.append("Hello member 1");
+        groupAdmin.register(member2);
+        System.out.println(groupAdmin);
+        // Call undo()
+        groupAdmin.undo();
+        System.out.println(groupAdmin);
+/*
         System.out.println(member1);
 
         groupAdmin.register(member2);
@@ -23,7 +30,7 @@ public class Test {
         groupAdmin.undo();
         System.out.println(member1);
         System.out.println(groupAdmin);
-
+*/
 
 
     }
